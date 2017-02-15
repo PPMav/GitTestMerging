@@ -12,7 +12,7 @@ namespace GitTestMerge
         {
             int Rueckgabewert;
 
-            Rueckgabewert = parameterA + parameterB;
+            Rueckgabewert = parameterA * parameterB;
 
             return (Rueckgabewert);
         }
