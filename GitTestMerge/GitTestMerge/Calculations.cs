@@ -8,5 +8,13 @@ namespace GitTestMerge
 {
     class Calculations
     {
+        public int Calculate(int parameterA, int parameterB)
+        {
+            int Rueckgabewert;
+
+            Rueckgabewert = parameterA + parameterB;
+
+            return (Rueckgabewert);
+        }
     }
 }
